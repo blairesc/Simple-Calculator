@@ -109,3 +109,17 @@ button:nth-child(20) {
     background-color: #9477af;
 }
 
+@media screen and (max-width: 999px) {
+    #container {
+        width: 100%;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width:320px) { /*website can be no smaller than this*/
+    #container {
+        width:320px;
+        background-size: 320px;
+    }
+}
+
